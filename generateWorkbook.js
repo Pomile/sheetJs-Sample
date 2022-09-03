@@ -11,12 +11,12 @@ const generateWorkBook = () =>{
   }));
   // create a workbook
   const worksheet = XLSX.utils.json_to_sheet(rows);
-  /* calculate column width */
+   /* calculate column width */
   const max_width = rows.reduce((w, r) => Math.max(w, r.name.length), 10);
   worksheet["!cols"] = [ { wch: max_width } ];
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, worksheet, "Dates");
-  /* fix headers */
+   /* fix headers */
   XLSX.utils.sheet_add_aoa(worksheet, [["Name", "Birthday"]], { origin: "A1" });
   
   // export file
