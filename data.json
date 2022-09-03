@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "first": "John",         
+      "last": "Adams"           
+    },
+    "bio": {
+      "birthday": "1735-10-19",
+      "gender": "M"
+    },
+    "terms": [
+      { "type": "viceprez" },
+      { "type": "viceprez" },
+      { "type": "prez" }
+    ]
+  },
+  {
+    "id": 1,
+    "name": {
+      "first": "Babatunde",         
+      "last": "Ologortobad"           
+    },
+    "bio": {
+      "birthday": "1900-10-19",
+      "gender": "M"
+    },
+    "terms": [
+      { "type": "vice" },
+      { "type": "vice" },
+      { "type": "prez0" }
+    ]
+  },
+  {
+    "id": 1,
+    "name": {
+      "first": "Fuhad",         
+      "last": "Musa"           
+    },
+    "bio": {
+      "birthday": "1900-10-19",
+      "gender": "M"
+    },
+    "terms": [
+      { "type": "vice" },
+      { "type": "vice" },
+      { "type": "prez" }
+    ]
+  }
+]

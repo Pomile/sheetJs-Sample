@@ -1,0 +1,23 @@
+{
+  "name": "sheetjs-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateWorkbook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pomile/sheetJs-Sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pomile/sheetJs-Sample/issues"
+  },
+  "homepage": "https://github.com/Pomile/sheetJs-Sample#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
