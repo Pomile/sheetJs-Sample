@@ -4,8 +4,8 @@ This shows a working sample of sheetjs including conversion of xlsx-to-csv
 
 ## Library
 
-- SheetJs
-- xlsx-to-csv
+- [SheetJs](https://docs.sheetjs.com/docs/)
+- [xlsx-to-csv](https://github.com/ianberdin/xlsx-to-csv)
 
 ## Run a sample
 
