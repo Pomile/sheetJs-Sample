@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Pomile/sheetJs-Sample#readme",
   "dependencies": {
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "xlsx-to-csv": "^1.0.1"
   }
 }
