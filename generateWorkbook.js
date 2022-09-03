@@ -21,7 +21,7 @@ const generateWorkBook = () =>{
   
   // export file
   const filename = "presidents-" + Date.now() + '-' + Math.round(Math.random() * 1E9) + '.xlsx';
-  console.log();
+
   XLSX.writeFile(workbook, __dirname + '/tmp/' + filename);
   const pathToFile = path.resolve(__dirname, '/tmp/', filename);
   return {
