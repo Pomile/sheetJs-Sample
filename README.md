@@ -16,4 +16,4 @@ This shows a working sample of sheetjs including conversion of xlsx-to-csv
 
 ## Find files Generated
 
-After running a sample, you can find the files generated in xslx and csv in the tmp folder
+After running the code, you can find the files generated in .xslx and .csv extension in the tmp folder
